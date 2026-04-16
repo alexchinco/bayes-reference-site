@@ -1,0 +1,46 @@
+.math-stacked {
+  display: none;
+}
+
+.math-inline {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+  .results-table .math-inline {
+    display: none !important;
+  }
+
+  .results-table .math-stacked {
+    display: inline-flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    font-family: monospace !important;
+    line-height: 1.3 !important;
+  }
+
+  .math-line {
+    width: 100% !important;
+    border-bottom: 1px solid #1a1a1a !important;
+    margin: 1px 0 !important;
+  }
+
+  .math-result {
+    font-weight: 600 !important;
+  }
+
+  .results-table {
+    font-size: 0.75rem !important;
+  }
+
+  .results-table th:first-child,
+  .results-table td:first-child {
+    max-width: 5rem !important;
+    word-wrap: break-word !important;
+  }
+
+  .results-table th:nth-child(n+2),
+  .results-table td:nth-child(n+2) {
+    text-align: center !important;
+  }
+}

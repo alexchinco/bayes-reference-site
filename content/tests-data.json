@@ -1,0 +1,200 @@
+[
+  {
+    "slug": "mammography-digital-breast-cancer",
+    "bfPositive": "10×",
+    "bfNegative": "1/10×",
+    "baseRate": "1% of women undergoing screening"
+  },
+  {
+    "slug": "psa-prostate-cancer",
+    "bfPositive": "1.5×",
+    "bfNegative": "1/3×",
+    "baseRate": "5% of men aged 55–69"
+  },
+  {
+    "slug": "low-dose-ct-ldct-lung-cancer",
+    "bfPositive": "20×",
+    "bfNegative": "1/20×",
+    "baseRate": "2% in high-risk smokers"
+  },
+  {
+    "slug": "colonoscopy-colorectal-cancer",
+    "bfPositive": "100×",
+    "bfNegative": "",
+    "baseRate": "0.5% average-risk adults"
+  },
+  {
+    "slug": "fit-fecal-immunochemical-test-colorectal-cancer",
+    "bfPositive": "10×",
+    "bfNegative": "1/5×",
+    "baseRate": "0.5% average-risk adults"
+  },
+  {
+    "slug": "cologuard-multi-target-stool-dna-colorectal-cancer",
+    "bfPositive": "5×",
+    "bfNegative": "1/10×",
+    "baseRate": "0.5% average-risk adults"
+  },
+  {
+    "slug": "pap-smear-cervical-cancer",
+    "bfPositive": "20×",
+    "bfNegative": "1/2×",
+    "baseRate": "0.1% screened women"
+  },
+  {
+    "slug": "high-sensitivity-troponin-acute-myocardial-infarction",
+    "bfPositive": "3×",
+    "bfNegative": "1/10×",
+    "baseRate": "10% ED chest pain"
+  },
+  {
+    "slug": "nt-probnp-heart-failure",
+    "bfPositive": "5×",
+    "bfNegative": "1/10×",
+    "baseRate": "2% primary care adults"
+  },
+  {
+    "slug": "d-dimer-pulmonary-embolism",
+    "bfPositive": "1.5×",
+    "bfNegative": "1/10×",
+    "baseRate": "5% suspected PE"
+  },
+  {
+    "slug": "hemoglobin-a1c-6-5-type-2-diabetes",
+    "bfPositive": "10×",
+    "bfNegative": "1/2×",
+    "baseRate": "5% US adults"
+  },
+  {
+    "slug": "fasting-plasma-glucose-126-mg-dl-type-2-diabetes",
+    "bfPositive": "50×",
+    "bfNegative": "1/2×",
+    "baseRate": "5% US adults"
+  },
+  {
+    "slug": "tsh-hypothyroidism",
+    "bfPositive": "10×",
+    "bfNegative": "1/50×",
+    "baseRate": "5% US adults"
+  },
+  {
+    "slug": "rapid-strep-test-radt-group-a-streptococcal-pharyngitis",
+    "bfPositive": "20×",
+    "bfNegative": "1/5×",
+    "baseRate": "15% adults; 30% children"
+  },
+  {
+    "slug": "rapid-influenza-diagnostic-test-ridt-influenza",
+    "bfPositive": "50×",
+    "bfNegative": "1/3×",
+    "baseRate": "15% during flu season"
+  },
+  {
+    "slug": "covid-19-rapid-antigen-test-covid-19",
+    "bfPositive": "100×",
+    "bfNegative": "1/3×",
+    "baseRate": "5–20% depending on transmission"
+  },
+  {
+    "slug": "monospot-infectious-mononucleosis-ebv",
+    "bfPositive": "20×",
+    "bfNegative": "1/5×",
+    "baseRate": "5% adolescents/young adults"
+  },
+  {
+    "slug": "urea-breath-test-h-pylori-infection",
+    "bfPositive": "10×",
+    "bfNegative": "1/10×",
+    "baseRate": "30% US adults"
+  },
+  {
+    "slug": "rapid-antibody-test-hiv",
+    "bfPositive": "100×",
+    "bfNegative": "1/100×",
+    "baseRate": "0.5% US adults"
+  },
+  {
+    "slug": "antibody-screen-hepatitis-c",
+    "bfPositive": "100×",
+    "bfNegative": "1/50×",
+    "baseRate": "2% US adults"
+  },
+  {
+    "slug": "rpr-vdrl-syphilis",
+    "bfPositive": "20×",
+    "bfNegative": "1/5×",
+    "baseRate": "0.1% general population"
+  },
+  {
+    "slug": "naat-chlamydia-gonorrhea",
+    "bfPositive": "50×",
+    "bfNegative": "1/20×",
+    "baseRate": "5% sexually active women <25"
+  },
+  {
+    "slug": "quantiferon-tb-gold-latent-tuberculosis",
+    "bfPositive": "20×",
+    "bfNegative": "1/20×",
+    "baseRate": "5% US population"
+  },
+  {
+    "slug": "urine-nitrite-urinary-tract-infection",
+    "bfPositive": "10×",
+    "bfNegative": "1/1.5×",
+    "baseRate": "50% symptomatic women"
+  },
+  {
+    "slug": "urine-leukocyte-esterase-urinary-tract-infection",
+    "bfPositive": "3×",
+    "bfNegative": "1/3×",
+    "baseRate": "50% symptomatic women"
+  },
+  {
+    "slug": "ferritin-30-ng-ml-iron-deficiency-anemia",
+    "bfPositive": "50×",
+    "bfNegative": "1/10×",
+    "baseRate": "5% adult women; 2% men"
+  },
+  {
+    "slug": "ana-1-80-titer-systemic-lupus-erythematosus",
+    "bfPositive": "5×",
+    "bfNegative": "1/50×",
+    "baseRate": "0.1% general adult population"
+  },
+  {
+    "slug": "ana-1-320-titer-systemic-lupus-erythematosus",
+    "bfPositive": "20×",
+    "bfNegative": "1/50×",
+    "baseRate": "0.1% general adult population"
+  },
+  {
+    "slug": "anti-ccp-rheumatoid-arthritis",
+    "bfPositive": "10×",
+    "bfNegative": "1/3×",
+    "baseRate": "0.5% US adults"
+  },
+  {
+    "slug": "rheumatoid-factor-rf-rheumatoid-arthritis",
+    "bfPositive": "5×",
+    "bfNegative": "1/5×",
+    "baseRate": "0.5% US adults"
+  },
+  {
+    "slug": "ttg-iga-celiac-disease",
+    "bfPositive": "10×",
+    "bfNegative": "1/20×",
+    "baseRate": "1% general population"
+  },
+  {
+    "slug": "chest-x-ray-community-acquired-pneumonia",
+    "bfPositive": "5×",
+    "bfNegative": "1/5×",
+    "baseRate": "5% cough and fever"
+  },
+  {
+    "slug": "spirometry-fev1-fvc-0-70-copd",
+    "bfPositive": "5×",
+    "bfNegative": "1/10×",
+    "baseRate": "5% US adults"
+  }
+]

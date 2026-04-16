@@ -2,25 +2,321 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --foreground: #1a1a1a;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --card-bg: #f9fafb;
+  --card-hover: #f3f4f6;
+  --accent: #2563eb;
+  --accent-light: #eff6ff;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+/* Landing page layout */
+.home {
+  display: flex;
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+.home-left {
+  flex: 1;
+  padding-right: 2rem;
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  max-height: 100vh;
+  position: sticky;
+  top: 0;
+}
+
+.home-left h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.home-right {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Intro content — single font size for everything */
+.intro-content {
+  font-size: 0.9rem;
+}
+
+.intro-content p {
+  margin-bottom: 1rem;
+}
+
+.intro-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.intro-content th,
+.intro-content td {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.intro-content th {
+  background: var(--card-bg);
+  font-weight: 600;
+}
+
+.intro-content em {
+  font-style: italic;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+/* Search */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1.125rem;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+  background: var(--background);
+}
+
+.search-input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.search-results {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Test cards */
+.test-card {
+  display: block;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.1s, border-color 0.1s;
+}
+
+.test-card:hover {
+  background: var(--card-hover);
+  border-color: var(--accent);
+}
+
+.test-card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+}
+
+.test-card-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-left: auto;
+}
+
+.test-card-condition {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.test-card-name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.25rem 0;
+}
+
+div.test-card-stats {
+  display: grid !important;
+  grid-template-columns: 5.5rem 5.5rem 1fr !important;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+.test-card-bf,
+.test-card-base {
+  font-family: var(--font-geist-mono), monospace;
+}
+
+/* Test detail page */
+.test-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.test-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.back-link {
+  font-size: 0.9rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.test-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.test-page h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+/* Test content markdown */
+.test-content h2,
+.test-content strong:first-child {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.test-content p {
+  margin-bottom: 1rem;
+  font-size: 0.95rem;
+}
+
+.test-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+}
+
+.test-content th,
+.test-content td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.test-content th {
+  background: var(--card-bg);
+  font-weight: 600;
+}
+
+.test-content a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.test-content a:hover {
+  text-decoration: underline;
+}
+
+.test-content ul,
+.test-content ol {
+  margin: 0.25rem 0 1rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.test-content p:has(+ ul) {
+  margin-bottom: 0.25rem;
+}
+
+.test-content li {
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .home-left {
+    flex: none;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding-right: 0;
+    padding-bottom: 2rem;
+    position: static;
+    max-height: none;
+  }
+
+  .test-page {
+    padding: 1rem;
+  }
+
+  div.test-card-stats {
+    grid-template-columns: auto 1fr !important;
+    grid-template-rows: 1.4em auto !important;
+    gap: 0 1.5rem !important;
+    align-items: start !important;
+    line-height: 1.4 !important;
+  }
+
+  div.test-card-stats .test-card-bf:nth-child(1) {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+  }
+
+  div.test-card-stats .test-card-bf:nth-child(2) {
+    grid-column: 1 !important;
+    grid-row: 2 !important;
+  }
+
+  div.test-card-stats .test-card-base {
+    grid-column: 2 !important;
+    grid-row: 1 / 3 !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    line-height: 1.4 !important;
+  }
+
 }
