@@ -20,7 +20,7 @@ export default async function Home() {
   return (
     <main className="home">
       <div className="home-left">
-        <h1>Bayes Factor Reference</h1>
+        <h1>Bedside Bayes</h1>
         <div
           className="intro-content"
           dangerouslySetInnerHTML={{ __html: introHtml }}
