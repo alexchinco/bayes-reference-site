@@ -327,8 +327,8 @@ The paradigmatic *rule-out* test. A positive D-dimer is nearly worthless ($1.5\t
 
 | Scenario | Prior | + Result | − Result |
 |---|---|---|---|
-| Borderline risk (ACC/AHA statin threshold) | 7.5% | $1.5 \times 7.5\% = 11\%$ | $\frac{1}{5} \times 7.5\% = 1.5\%$ |
-| Intermediate risk | 15% | $1.5 \times 15\% = 22\%$ | $\frac{1}{5} \times 15\% = 3\%$ |
+| Borderline risk (5–7.5% 10-yr ASCVD) | 7.5% | $1.5 \times 7.5\% = 11\%$ | $\frac{1}{5} \times 7.5\% = 1.5\%$ |
+| Intermediate risk (7.5–20% 10-yr ASCVD) | 15% | $1.5 \times 15\% = 22\%$ | $\frac{1}{5} \times 15\% = 3\%$ |
 
 CAC works best as a *risk reclassifier* — moving patients between risk categories — rather than a traditional diagnostic test. The Bayes factor framework is not the best fit for it. A positive result (CAC > 0) is nearly useless on its own because most adults over 50 have some coronary calcium. The clinical value is almost entirely in the **negative result**: a CAC of zero is one of the strongest negative risk markers in cardiology, with an annual ASCVD event rate of ~0.03% and a "warranty period" of 5-10 years.
 
