@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const RECIPIENTS = ["alexchinco@gmail.com", "dbonacco@gmail.com"];
+const RECIPIENTS = ["alexchinco@gmail.com"];
 
 // Build search queries from test data
 const testsData = JSON.parse(
