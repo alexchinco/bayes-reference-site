@@ -156,6 +156,12 @@
     "baseRate": "5% US population"
   },
   {
+    "slug": "koh-prep-nail-onychomycosis",
+    "bfPositive": "10×",
+    "bfNegative": "1/2×",
+    "baseRate": "50% dystrophic nails"
+  },
+  {
     "slug": "urine-nitrite-urinary-tract-infection",
     "bfPositive": "10×",
     "bfNegative": "1/1.5×",
