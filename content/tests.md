@@ -403,6 +403,36 @@ $10 \times 15\% \geq 100\%$: exact posterior is 64%. TSH is exceptional: strong 
 - *J Endocr Soc*, 2022. [PMC 9706417](https://pmc.ncbi.nlm.nih.gov/articles/PMC9706417/).
 
 
+### Anti-TPO — Hashimoto's Hypothyroidism
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 7% (sensitivity 93%) |
+| False-positive rate | 5% (specificity 95%) |
+| Bayes factor (positive test) | $20\times$ |
+| Bayes factor (negative test) | $1/10\times$ |
+| Base rate | 5% of US adults |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Unselected adult | 5% | $20 \times 5\% \geq 100\%$ | $\frac{1}{10} \times 5\% = 0.5\%$ |
+| Woman with fatigue, weight gain, family history | 15% | $20 \times 15\% \geq 100\%$ | $\frac{1}{10} \times 15\% = 1.5\%$ |
+| Already diagnosed hypothyroid (etiology?) | 50% | $20 \times 50\% \geq 100\%$ | $\frac{1}{10} \times 50\% = 5\%$ |
+
+$20 \times 5\% \geq 100\%$: exact posterior is 51%. $20 \times 15\% \geq 100\%$: exact posterior is 78%. $20 \times 50\% \geq 100\%$: exact posterior is 95%. Strong rule-in ($20\times$) confirms autoimmune etiology. Good rule-out ($1/10\times$) — a negative anti-TPO makes Hashimoto's unlikely but does not exclude it entirely (~5-10% of Hashimoto's patients are seronegative). Anti-TPO positivity can precede clinical hypothyroidism by years.
+
+- **+ result:** risk goes from *vegetarian* (5%) to 51%
+- **− result:** risk drops to *identical twin* (0.5%)
+
+**Sources:**
+- StatPearls. [Hashimoto Thyroiditis](https://www.ncbi.nlm.nih.gov/books/NBK459262/).
+- Systematic review, *Frontiers in Public Health*, 2022. [PMC 9608544](https://pmc.ncbi.nlm.nih.gov/articles/PMC9608544/).
+
+
 ---
 
 ## 4. Infectious Disease
