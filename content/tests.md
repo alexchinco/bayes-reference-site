@@ -341,6 +341,36 @@ CAC works best as a *risk reclassifier* — moving patients between risk categor
 - AAFP. [CAC scoring for prevention](https://www.aafp.org/pubs/afp/issues/2022/0700/diagnostic-tests-coronary-artery-calcium-scoring.html).
 
 
+### ApoB (≥130 mg/dL) — ASCVD Risk
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 26% (sensitivity 74%) |
+| False-positive rate | 17% (specificity 83%) |
+| Bayes factor (positive test) | $5\times$ |
+| Bayes factor (negative test) | $1/3\times$ |
+| Base rate | 7.5% 10-year ASCVD risk (borderline-risk patients) |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Borderline risk (5–7.5% 10-yr ASCVD) | 7.5% | $5 \times 7.5\% = 37.5\%$ | $\frac{1}{3} \times 7.5\% = 2.5\%$ |
+| Intermediate risk (7.5–20% 10-yr ASCVD) | 15% | $5 \times 15\% = 75\%$ | $\frac{1}{3} \times 15\% = 5\%$ |
+
+Like the CAC score, ApoB works best as a *risk reclassifier* — moving patients between risk categories — rather than a traditional diagnostic test. The Bayes factor framework is a rough fit. ApoB ≥130 mg/dL corresponds to roughly the 90th percentile and is a risk-enhancing factor per AHA/ACC guidelines. ApoB outperforms LDL-C in predicting ASCVD events, especially when LDL and ApoB are discordant (normal LDL but elevated ApoB). Most useful in borderline/intermediate-risk patients where the statin decision is uncertain.
+
+- **+ result:** risk goes from *borderline* (7.5%) to 37.5% — strong signal for statin initiation
+- **− result:** risk drops to *red hair* (2.5%) — modest reassurance
+
+**Sources:**
+- AHA/ACC. [ApoB: bridging the gap between evidence and clinical practice](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.124.068885).
+- National Lipid Association. [Role of ApoB in clinical management](https://www.lipidjournal.com/article/S1933-2874(24)00240-X/fulltext).
+- PMC. [ApoB — an ideal biomarker for atherosclerosis?](https://pmc.ncbi.nlm.nih.gov/articles/PMC11019329/).
+
+
 ---
 
 ## 3. Metabolic & Endocrine
