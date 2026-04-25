@@ -208,5 +208,17 @@
     "bfPositive": "5×",
     "bfNegative": "1/10×",
     "baseRate": "5% US adults"
+  },
+  {
+    "slug": "elecsys-ptau181-alzheimer-s-disease",
+    "bfPositive": "3×",
+    "bfNegative": "1/5×",
+    "baseRate": "10% adults 65+ with memory concerns"
+  },
+  {
+    "slug": "lumipulse-ptau217-a-42-ratio-alzheimer-s-disease",
+    "bfPositive": "5×",
+    "bfNegative": "1/100×",
+    "baseRate": "10% adults 65+ with memory concerns"
   }
 ]
