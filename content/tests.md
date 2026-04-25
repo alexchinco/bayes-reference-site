@@ -793,6 +793,36 @@ $20 \times 5\% \geq 100\%$: exact posterior is 51%. $20 \times 20\% \geq 100\%$:
 - USPSTF. [Latent tuberculosis infection screening](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/latent-tuberculosis-infection-screening).
 
 
+### KOH Prep (Nail) — Onychomycosis
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 39% (sensitivity 61%) |
+| False-positive rate | 5% (specificity 95%) |
+| Bayes factor (positive test) | $10\times$ |
+| Bayes factor (negative test) | $1/2\times$ |
+| Base rate | 50% of patients presenting with dystrophic nails |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Dystrophic nail | 50% | $10 \times 50\% \geq 100\%$ | $\frac{1}{2} \times 50\% = 25\%$ |
+| Diabetic with dystrophic nail | 60% | $10 \times 60\% \geq 100\%$ | $\frac{1}{2} \times 60\% = 30\%$ |
+
+$10 \times 50\% \geq 100\%$: exact posterior is 91%. $10 \times 60\% \geq 100\%$: exact posterior is 94%. A positive KOH is strong confirmation — if you see hyphae, it's fungal. But KOH misses nearly 40% of true onychomycosis, so a negative result is weak ($1/2\times$). Only about half of dystrophic nails are actually fungal; the rest are psoriasis, trauma, lichen planus, or aging. If KOH is negative but clinical suspicion is high, consider fungal culture or PAS staining of nail clippings (more sensitive).
+
+- **+ result:** at a *coin-flip* prior (50%), risk pushes to 91% — strong confirmation
+- **− result:** only drops to 25% — still a 1 in 4 chance despite negative KOH
+
+**Sources:**
+- Meta-analysis, *BMC Infectious Diseases*, 2017. [PMC 5320683](https://pmc.ncbi.nlm.nih.gov/articles/PMC5320683/).
+- AAFP. [Onychomycosis: diagnosis and treatment](https://www.aafp.org/pubs/afp/issues/2013/1201/p762.html).
+- AAFP. [Onychomycosis: rapid evidence review](https://www.aafp.org/pubs/afp/issues/2021/1000/p359.html).
+
+
 ---
 
 ## 5. Urinary
