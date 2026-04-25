@@ -403,7 +403,7 @@ $10 \times 15\% \geq 100\%$: exact posterior is 64%. TSH is exceptional: strong 
 - *J Endocr Soc*, 2022. [PMC 9706417](https://pmc.ncbi.nlm.nih.gov/articles/PMC9706417/).
 
 
-### Anti-TPO — Hashimoto's Hypothyroidism
+### Anti-TPO — Auto-Immune Hypothyroidism
 
 **Test Characteristics**
 
