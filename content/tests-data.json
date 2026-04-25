@@ -66,6 +66,12 @@
     "baseRate": "7.5% borderline-risk"
   },
   {
+    "slug": "apob-130-mg-dl-ascvd-risk",
+    "bfPositive": "5×",
+    "bfNegative": "1/3×",
+    "baseRate": "7.5% borderline-risk"
+  },
+  {
     "slug": "hemoglobin-a1c-6-5-type-2-diabetes",
     "bfPositive": "10×",
     "bfNegative": "1/2×",
