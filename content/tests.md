@@ -1072,6 +1072,67 @@ $5 \times 20\% \geq 100\%$: exact posterior is 56%. Fixed FEV1/FVC threshold of 
 - BMC Pulmonary Medicine, 2009. [Spirometry in primary care](https://bmcpulmmed.biomedcentral.com/articles/10.1186/1471-2466-9-31).
 
 
+## 10. Neurological
+
+### Elecsys pTau181 — Alzheimer's Disease
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 16% (sensitivity 84%) |
+| False-positive rate | 22% (specificity 78%) |
+| Bayes factor (positive test) | $3\times$ |
+| Bayes factor (negative test) | $1/5\times$ |
+| Base rate | 10% of adults over 65 presenting with memory concerns |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Adult over 65 with memory concerns | 10% | $3 \times 10\% = 30\%$ | $\frac{1}{5} \times 10\% = 2\%$ |
+| Strong family history, progressive decline | 25% | $3 \times 25\% = 75\%$ | $\frac{1}{5} \times 25\% = 5\%$ |
+
+The only FDA-cleared blood test for primary care. Designed as a **rule-out test** — a negative result has 97.9% negative predictive value in low-prevalence primary care populations. The positive result is weak ($3\times$) because the test is optimized for sensitivity over specificity. A positive pTau181 warrants referral for confirmatory testing (amyloid PET or CSF biomarkers). Single marker (pTau181 only), available through Labcorp. Not currently covered by Medicare or most insurance.
+
+- **+ result:** risk goes from *left-handed* (10%) to 30% — needs confirmation
+- **− result:** risk drops to *red hair* (2%) — strong reassurance
+
+**Sources:**
+- Roche. [Elecsys pTau181 FDA clearance](https://diagnostics.roche.com/us/en/news-listing/2025/fda-cleared-ptau181-alzheimers-blood-test.html).
+- Alzheimer's Association. [FDA clearance statement](https://www.alz.org/news/2025/fda-clearance-blood-test-primary-care-rule-out-alzheimers-related-amyloid-pathology).
+
+
+### Lumipulse pTau217/Aβ42 Ratio — Alzheimer's Disease
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 1% (sensitivity 99%) |
+| False-positive rate | 15% (specificity 85%) |
+| Bayes factor (positive test) | $5\times$ |
+| Bayes factor (negative test) | $1/100\times$ |
+| Base rate | 10% of adults over 65 presenting with memory concerns |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Adult over 65 with memory concerns | 10% | $5 \times 10\% = 50\%$ | $\frac{1}{100} \times 10\% = 0.1\%$ |
+| Strong family history, progressive decline | 25% | $5 \times 25\% \geq 100\%$ | $\frac{1}{100} \times 25\% = 0.25\%$ |
+
+$5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test for diagnosing Alzheimer's (May 2025). Measures a two-marker ratio (pTau217 and β-amyloid 1-42). The FDA-cleared cutpoints prioritize sensitivity (99%) — don't miss anyone — at the cost of lower specificity (85%). A positive needs confirmation with amyloid PET or CSF. The negative BF ($1/100\times$) is extraordinary — a negative result essentially rules out amyloid pathology. Available through Labcorp. For adults 55+ with cognitive symptoms. Not currently covered by Medicare or most insurance.
+
+- **+ result:** risk goes from *left-handed* (10%) to *coin flip* (50%) — needs confirmation
+- **− result:** risk drops to *appendicitis this year* (0.1%) — essentially rules it out
+
+**Sources:**
+- FDA. [First blood test for Alzheimer's, May 2025](https://www.fda.gov/news-events/press-announcements/fda-clears-first-blood-test-used-diagnosing-alzheimers-disease).
+- *Alzheimer's & Dementia*, 2025. [Diagnostic accuracy of pTau217/Aβ42](https://pmc.ncbi.nlm.nih.gov/articles/PMC11953589/).
+- Labcorp. [pTau217/Aβ42 ratio test](https://www.labcorp.com/treatment-areas/neurology/clinical-testing/ptau217betaamyloid42ratio).
+
+
 ---
 
 ## Summary Table
