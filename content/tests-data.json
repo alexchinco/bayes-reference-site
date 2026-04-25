@@ -78,6 +78,12 @@
     "baseRate": "5% US adults"
   },
   {
+    "slug": "anti-tpo-hashimoto-s-hypothyroidism",
+    "bfPositive": "20×",
+    "bfNegative": "1/10×",
+    "baseRate": "5% US adults"
+  },
+  {
     "slug": "rapid-strep-test-radt-group-a-streptococcal-pharyngitis",
     "bfPositive": "20×",
     "bfNegative": "1/5×",
