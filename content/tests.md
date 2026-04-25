@@ -311,6 +311,36 @@ The paradigmatic *rule-out* test. A positive D-dimer is nearly worthless ($1.5\t
 - NEJM, 2019. [D-dimer adjusted to clinical probability](https://www.nejm.org/doi/full/10.1056/NEJMoa1909159).
 
 
+### Coronary Artery Calcium Score (CAC = 0 vs. CAC > 0) — ASCVD Risk
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 6% (sensitivity 94%) |
+| False-positive rate | 66% (specificity 34%) |
+| Bayes factor (positive test) | $1.5\times$ |
+| Bayes factor (negative test) | $1/5\times$ |
+| Base rate | 7.5% 10-year ASCVD risk (borderline-risk patients) |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Borderline risk (ACC/AHA statin threshold) | 7.5% | $1.5 \times 7.5\% = 11\%$ | $\frac{1}{5} \times 7.5\% = 1.5\%$ |
+| Intermediate risk | 15% | $1.5 \times 15\% = 22\%$ | $\frac{1}{5} \times 15\% = 3\%$ |
+
+CAC works best as a *risk reclassifier* — moving patients between risk categories — rather than a traditional diagnostic test. The Bayes factor framework is not the best fit for it. A positive result (CAC > 0) is nearly useless on its own because most adults over 50 have some coronary calcium. The clinical value is almost entirely in the **negative result**: a CAC of zero is one of the strongest negative risk markers in cardiology, with an annual ASCVD event rate of ~0.03% and a "warranty period" of 5-10 years.
+
+- **+ result:** nearly useless — most adults over 50 have some calcium
+- **− result:** risk drops from *borderline* (7.5%) to *red hair* (1.5%) — strong reassurance, may defer statin therapy
+
+**Sources:**
+- Meta-analysis, *JAMA Internal Medicine*, 2004. [JAMA Network](https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/217101).
+- MESA cohort, *JACC Cardiovascular Imaging*, 2020. [CAC=0 warranty period](https://www.jacc.org/doi/10.1016/j.jcmg.2020.06.048).
+- AAFP. [CAC scoring for prevention](https://www.aafp.org/pubs/afp/issues/2022/0700/diagnostic-tests-coronary-artery-calcium-scoring.html).
+
+
 ---
 
 ## 3. Metabolic & Endocrine
