@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Bayes Factor Reference",
+  title: "Bedside Bayes",
   description:
     "Quick-reference Bayes factors for common family medicine diagnostic tests",
 };
