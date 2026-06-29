@@ -232,5 +232,11 @@
     "bfPositive": "5×",
     "bfNegative": "1/100×",
     "baseRate": "10% adults 65+ with memory concerns"
+  },
+  {
+    "slug": "bulging-tympanic-membrane-acute-otitis-media",
+    "bfPositive": "50×",
+    "bfNegative": "1/2×",
+    "baseRate": "30% pediatric ear complaint"
   }
 ]
