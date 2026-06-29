@@ -1195,6 +1195,40 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 
 ---
 
+## 11. ENT / Pediatric
+
+### Bulging Tympanic Membrane — Acute Otitis Media
+
+**Test Characteristics**
+
+| Metric | Value |
+|---|---|
+| False-negative rate | 49% (sensitivity 51%) |
+| False-positive rate | 3% (specificity 97%) |
+| Bayes factor (positive test) | $50\times$ |
+| Bayes factor (negative test) | $1/2\times$ |
+| Base rate | 30% of children presenting with febrile URI or ear complaint |
+
+**Interpreting Results**
+
+| Scenario | Prior | + Result | − Result |
+|---|---|---|---|
+| Child with febrile URI, no ear-specific symptoms | 10% | $50 \times 10\% \geq 100\%$ | $\frac{1}{2} \times 10\% = 5\%$ |
+| Child with ear pain or ear-tugging | 50% | $50 \times 50\% \geq 100\%$ | $\frac{1}{2} \times 50\% = 25\%$ |
+
+$50 \times 10\% \geq 100\%$: exact posterior is 85%. $50 \times 50\% \geq 100\%$: exact posterior is 98%. Bulging is the single best otoscopic finding for acute otitis media — a frankly bulging TM essentially clinches the diagnosis and is the linchpin of the 2013 AAP definition. The negative Bayes factor is weak ($1/2\times$) because nearly half of AOM cases lack frank bulging; cloudy appearance or impaired mobility on pneumatic otoscopy may be the only finding. Distinguish AOM (bulging, opaque, erythematous) from OME (retracted or neutral, air-fluid level, no bulging). Crying alone can redden a TM and produce a false impression of inflammation — judge color in a calm child.
+
+- **+ result:** at a *coin-flip* prior (child with otalgia, 50%), risk pushes to 98% — essentially diagnostic
+- **− result:** only drops to 25% — bulging misses about half of AOM, so its absence doesn't rule it out
+
+**Sources:**
+- Rothman R, Owens T, Simel DL. *JAMA*, 2003. ["Does this child have acute otitis media?"](https://jamanetwork.com/journals/jama/fullarticle/197300).
+- Karma PH et al. *Int J Pediatr Otorhinolaryngol*, 1989. [PubMed 2807736](https://pubmed.ncbi.nlm.nih.gov/2807736/). Validation of otoscopic findings against tympanocentesis.
+- Lieberthal AS et al. *Pediatrics*, 2013. [The diagnosis and management of acute otitis media](https://publications.aap.org/pediatrics/article/131/3/e964/30912/) (AAP clinical practice guideline).
+
+
+---
+
 ## Summary Table
 
 | Test | Condition | $\text{BF}_{+}$ | $\text{BF}_{-}$ | Base Rate |
@@ -1208,6 +1242,7 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 | Fasting glucose $\geq$126 | T2 Diabetes | 50× | 1/2× | 5% |
 | Ferritin <30 | Iron deficiency | 50× | 1/10× | 5% women |
 | Rapid influenza (RIDT) | Influenza | 50× | 1/3× | 15% ILI |
+| Bulging TM | Acute otitis media | 50× | 1/2× | 30% pediatric ear sx |
 | RPR (primary) | Syphilis | 20× | 1/5× | 0.1% |
 | LDCT | Lung cancer | 20× | 1/20× | 2% |
 | Rapid strep (RADT) | GAS pharyngitis | 20× | 1/5× | 15–30% |
