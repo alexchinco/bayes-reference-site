@@ -237,6 +237,6 @@
     "slug": "bulging-tympanic-membrane-acute-otitis-media",
     "bfPositive": "50×",
     "bfNegative": "1/2×",
-    "baseRate": "30% pediatric ear complaint"
+    "baseRate": "50% child with ear pain + fever"
   }
 ]
