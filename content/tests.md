@@ -1195,7 +1195,7 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 
 ---
 
-## 11. ENT / Pediatric
+## 11. ENT
 
 ### Bulging Tympanic Membrane — Acute Otitis Media
 
