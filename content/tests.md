@@ -1203,9 +1203,9 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 
 | Metric | Value |
 |---|---|
-| False-negative rate | 49% (sensitivity 51%) |
+| False-negative rate | 47% (sensitivity 53%) |
 | False-positive rate | 3% (specificity 97%) |
-| Bayes factor (positive test) | $50\times$ |
+| Bayes factor (positive test) | $20\times$ |
 | Bayes factor (negative test) | $1/2\times$ |
 | Base rate | 50% of children with ear pain and fever |
 
@@ -1213,18 +1213,18 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 
 | Scenario | Prior | + Result | − Result |
 |---|---|---|---|
-| Child with febrile URI, no ear-specific symptoms | 10% | $50 \times 10\% \geq 100\%$ | $\frac{1}{2} \times 10\% = 5\%$ |
-| Child with ear pain and fever | 50% | $50 \times 50\% \geq 100\%$ | $\frac{1}{2} \times 50\% = 25\%$ |
+| Child with febrile URI, no ear-specific symptoms | 10% | $20 \times 10\% \geq 100\%$ | $\frac{1}{2} \times 10\% = 5\%$ |
+| Child with ear pain and fever | 50% | $20 \times 50\% \geq 100\%$ | $\frac{1}{2} \times 50\% = 25\%$ |
 
-$50 \times 10\% \geq 100\%$: exact posterior is 85%. $50 \times 50\% \geq 100\%$: exact posterior is 98%. Bulging is the single best otoscopic finding for acute otitis media — a frankly bulging TM essentially clinches the diagnosis and is the linchpin of the 2013 AAP definition. The negative Bayes factor is weak ($1/2\times$) because nearly half of AOM cases lack frank bulging; cloudy appearance or impaired mobility on pneumatic otoscopy may be the only finding. Distinguish AOM (bulging, opaque, erythematous) from OME (retracted or neutral, air-fluid level, no bulging). Crying alone can redden a TM and produce a false impression of inflammation — judge color in a calm child.
+$20 \times 10\% \geq 100\%$: exact posterior is 69%. $20 \times 50\% \geq 100\%$: exact posterior is 95%. Negative-test exact posterior at 50% prior is 33% (simple approximation gives 25%). Bulging is the otoscopic finding that most reliably distinguishes AOM from otitis media with effusion (OME), and the 2013 AAP guideline makes it an operational requirement for the diagnosis. The negative Bayes factor is weak ($1/2\times$) because nearly half of true AOM cases lack frank bulging on examination; cloudiness and distinctly impaired mobility were each more sensitive than bulging in the Karma data. Distinguish AOM (bulging, opaque, often hyperaemic) from OME (retracted or neutral, air-fluid level, no bulging). Crying alone can redden a TM and produce a false impression of inflammation — judge color in a calm child.
 
-- **+ result:** at a *coin-flip* prior (child with ear pain and fever, 50%), risk pushes to 98% — essentially diagnostic
-- **− result:** only drops to 25% — bulging misses about half of AOM, so its absence doesn't rule it out
+- **+ result:** at a *coin-flip* prior (child with ear pain and fever, 50%), risk pushes to 95% — strong confirmation
+- **− result:** drops to 25% (exact 33%) — bulging misses about half of AOM, so its absence doesn't rule it out
 
 **Sources:**
-- Rothman R, Owens T, Simel DL. *JAMA*, 2003. ["Does this child have acute otitis media?"](https://jamanetwork.com/journals/jama/fullarticle/197300).
-- Karma PH et al. *Int J Pediatr Otorhinolaryngol*, 1989. [PubMed 2807736](https://pubmed.ncbi.nlm.nih.gov/2807736/). Validation of otoscopic findings against tympanocentesis.
-- Lieberthal AS et al. *Pediatrics*, 2013. [The diagnosis and management of acute otitis media](https://publications.aap.org/pediatrics/article/131/3/e964/30912/) (AAP clinical practice guideline).
+- Karma PH, Penttilä MA, Sipilä MM, Kataja MJ. Otoscopic diagnosis of middle ear effusion in acute and non-acute otitis media. I. The value of different otoscopic findings. *Int J Pediatr Otorhinolaryngol*. 1989;17(1):37–49. Pooled sens 53% and spec 97% computed from Tables II and V (acute visits, bulging) vs myringotomy across 5462 visits.
+- Rothman R, Owens T, Simel DL. Does this child have acute otitis media? *JAMA*. 2003;290(12):1633–1640. Re-analysis of Karma data with verification-bias adjustment.
+- Lieberthal AS, Carroll AE, Chonmaitree T, et al. The diagnosis and management of acute otitis media. *Pediatrics*. 2013;131(3):e964–e999. AAP clinical practice guideline.
 
 
 ---
@@ -1242,7 +1242,7 @@ $50 \times 10\% \geq 100\%$: exact posterior is 85%. $50 \times 50\% \geq 100\%$
 | Fasting glucose $\geq$126 | T2 Diabetes | 50× | 1/2× | 5% |
 | Ferritin <30 | Iron deficiency | 50× | 1/10× | 5% women |
 | Rapid influenza (RIDT) | Influenza | 50× | 1/3× | 15% ILI |
-| Bulging TM | Acute otitis media | 50× | 1/2× | 50% child with ear pain + fever |
+| Bulging TM | Acute otitis media | 20× | 1/2× | 50% child with ear pain + fever |
 | RPR (primary) | Syphilis | 20× | 1/5× | 0.1% |
 | LDCT | Lung cancer | 20× | 1/20× | 2% |
 | Rapid strep (RADT) | GAS pharyngitis | 20× | 1/5× | 15–30% |
