@@ -1216,7 +1216,7 @@ $5 \times 25\% \geq 100\%$: exact posterior is 69%. First FDA-cleared blood test
 | Child with febrile URI, no ear-specific symptoms | 10% | $20 \times 10\% \geq 100\%$ | $\frac{1}{2} \times 10\% = 5\%$ |
 | Child with ear pain and fever | 50% | $20 \times 50\% \geq 100\%$ | $\frac{1}{2} \times 50\% = 25\%$ |
 
-$20 \times 10\% \geq 100\%$: exact posterior is 69%. $20 \times 50\% \geq 100\%$: exact posterior is 95%. Negative-test exact posterior at 50% prior is 33% (simple approximation gives 25%). Bulging is the otoscopic finding that most reliably distinguishes AOM from otitis media with effusion (OME), and the 2013 AAP guideline makes it an operational requirement for the diagnosis. The negative Bayes factor is weak ($1/2\times$) because nearly half of true AOM cases lack frank bulging on examination; cloudiness and distinctly impaired mobility were each more sensitive than bulging in the Karma data. Distinguish AOM (bulging, opaque, often hyperaemic) from OME (retracted or neutral, air-fluid level, no bulging). Crying alone can redden a TM and produce a false impression of inflammation — judge color in a calm child.
+$20 \times 10\% \geq 100\%$: exact posterior is 69%. $20 \times 50\% \geq 100\%$: exact posterior is 95%. Negative-test exact posterior at 50% prior is 33% (simple approximation gives 25%). Bulging is highly specific for middle ear effusion in acutely symptomatic children — when present, it strongly indicates AOM. The negative Bayes factor is weak ($1/2\times$) because nearly half of true AOM cases lack frank bulging on examination; cloudiness and distinctly impaired mobility were each more sensitive than bulging in the Karma data. Distinguish AOM (bulging, opaque, often hyperaemic) from OME (retracted or neutral, air-fluid level, no bulging). Crying alone can redden a TM and produce a false impression of inflammation — judge color in a calm child.
 
 - **+ result:** at a *coin-flip* prior (child with ear pain and fever, 50%), risk pushes to 95% — strong confirmation
 - **− result:** drops to 25% (exact 33%) — bulging misses about half of AOM, so its absence doesn't rule it out
@@ -1224,7 +1224,6 @@ $20 \times 10\% \geq 100\%$: exact posterior is 69%. $20 \times 50\% \geq 100\%$
 **Sources:**
 - Karma PH, Penttilä MA, Sipilä MM, Kataja MJ. Otoscopic diagnosis of middle ear effusion in acute and non-acute otitis media. I. The value of different otoscopic findings. *Int J Pediatr Otorhinolaryngol*. 1989;17(1):37–49. Pooled sens 53% and spec 97% computed from Tables II and V (acute visits, bulging) vs myringotomy across 5462 visits.
 - Rothman R, Owens T, Simel DL. Does this child have acute otitis media? *JAMA*. 2003;290(12):1633–1640. Re-analysis of Karma data with verification-bias adjustment.
-- Lieberthal AS, Carroll AE, Chonmaitree T, et al. The diagnosis and management of acute otitis media. *Pediatrics*. 2013;131(3):e964–e999. AAP clinical practice guideline.
 
 
 ---
